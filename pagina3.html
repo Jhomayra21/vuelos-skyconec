@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Equipaje</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/pagina3.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="avion (2).png" alt="" height="30"><a class="navbar-brand" href="">SkyConnect</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="paguina13.html">Tarifas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " aria-disabled="true" href="pagina11.html">Destinos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn custom-btn" type="submit">Buscar</button>
+                    </form>
+                    </div>
+                </div>
+            </nav> 
+        </div>
+        </header>
+        
+        <main>
+            <section class="slider">
+                <div class="list">
+                    <div class="item active">
+                        <div class="image" style="--url: url('https://i.pinimg.com/736x/b1/e3/d9/b1e3d99c9461937f53fb23488cade34e.jpg')"></div>
+                        <div class="content">
+                            <h2> EQUIPA TODO LO NECESARIO</h2>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="image" style="--url: url('https://i.pinimg.com/736x/e6/4c/ef/e64cef451e7796ea93d837d3cd88bf7d.jpg')"></div>
+                        <div class="content">
+                            <h2>DISFRUTA DE TUS VIAJES</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image" style="--url: url('https://i.pinimg.com/736x/33/52/57/3352571806b40bdaf480a60f9c1e7b2e.jpg')"></div>
+                        <div class="content">
+                            <h2>ALISTA TUS MALETAS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button id="prev">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                        </svg>
+                    </button>
+                    <button id="next">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <div class="navbar1" style="background: #2c445d;color:white;justify-content:space-around" >
+                <a onclick="showContent('articulo-personal')">Artículo personal</a>
+                <a onclick="showContent('equipaje-de-mano')">Equipaje de mano</a>
+                <a onclick="showContent('equipaje-en-bodega')">Equipaje en bodega</a>
+                <a onclick="showContent('equipaje -especial')">Equipaje especial</a>
+                <a onclick="showContent('exceso-equipaje')">Exceso equipaje</a>
+            </div>
+            <div id="articulo-personal" class="content active">
+                <h1>Artículo personal</h1>
+                <div class="box">
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Una bolsa de mano o cartera.</li>
+                        <li><i class="bi bi-check-circle"></i>  Una capa, abrigo, manta o impermeable.</li>
+                        <li><i class="bi bi-check-circle"></i>  Una sombrilla o bastón.</li>
+                        <li><i class="bi bi-check-circle"></i>  Una cámara fotográfica y/o un par de binoculares.</li>
+                        <li><i class="bi bi-check-circle"></i>  Cantidad razonable de revistas y/o libros.</li>
+                        <li><i class="bi bi-check-circle"></i>  Canastilla para bebé y/o coche plegable.</li>
+                        <li><i class="bi bi-check-circle"></i>  Una silla de ruedas plegable y/o un artefacto ortopédico.</li>
+                        <li><i class="bi bi-check-circle"></i>  Un portafolio de documentos o neceser de cosméticos.</li>
+                        <li><i class="bi bi-check-circle"></i>  Una computadora personal portátil y/o tablet.</li>
+                    </ul>
+                    <p class="note">
+                        El artículo personal debe caber debajo del asiento delantero (45 x 35 x 20 cm). En aeronaves CRJ, la medida es 20 x 30 x 25 cm. 
+                        Para más información, consulta las 
+                    </p>
+                </div>
+            </div>
+            <div id="equipaje-de-mano" class="content">
+                <h1>Equipaje de mano</h1>
+                <div class="box">
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Equipaje pequeño con un peso máximo de 5 kg, 7 kg o 12 kg, de acuerdo al tipo de aeronave.</li>
+                        <li><i class="bi bi-check-circle"></i>  Aeronaves Bombardier CRJ - 200.</li>
+                        <li><i class="bi bi-check-circle"></i>  Las dimensiones no deben superar los 20 x 30 x 25 cm, (alto, largo, ancho) incluyendo ruedas y manijas, el peso máximo permitido 5kg.</li>
+                        <li><i class="bi bi-check-circle"></i>  Aeronaves Boeing y Airbus.</li>
+                        <li><i class="bi bi-check-circle"></i>  Cabina económica, las dimensiones no deben superar los 55 x 35 x 25 cm, (alto, largo, ancho) incluyendo ruedas y manijas, el peso máximo permitido es de 7kg. el cual debe ubicarse en los compartimentos superiores del avión.</li>
+                        <li><i class="bi bi-check-circle"></i>  Cabina ejecutiva, se permite hasta 12kg, las dimensiones no deben superar los 55 x 35 x 25 cm, (alto, largo, ancho) incluyendo ruedas y manijas.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="equipaje-en-bodega" class="content">
+                <h1>Equipaje en bodega</h1>
+                <p>Tu equipaje facturable debe tener ciertas características para poder ser transportado. Se trata de la maleta que es chequeada en aeropuerto al momento de presentarte en mostradores y que viaja en la bodega del avión. </p>
+                <p>Toma en cuenta que la cantidad, peso y dimensiones de tu equipaje facturable permitido será determinado de acuerdo a la tarifa adquirida, además de la ruta y la aeronave que opere ese vuelo.</p>
+                <div class="box">
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Medidas máximas lineales (suma de largo, alto y ancho) 158 cm o 62 pulgadas (in).</li>
+                        <li><i class="bi bi-check-circle"></i>  Peso máximo en rutas nacionales hasta 20 kg.</li>
+                        <li><i class="bi bi-check-circle"></i>  Peso máximo en rutas internacionales hasta 23 kg por pieza.</li>
+                        <li><i class="bi bi-check-circle"></i>  Aeronaves Boeing y Airbus.</li>
+                    </ul>
+                </div>
+            </div> 
+            <div id="equipaje -especial" class="content" >
+                <h1>Equipaje Especial</h1>
+                <p>Se considera equipaje especial a todos los objetos o instrumentos que desees transportar y que, por sus características, naturaleza, tamaño, cantidad y/o fragilidad, merecen un tratamiento especial y condiciones diferentes para su manipulación y traslado. Recuerda que el traslado de objetos frágiles se realiza bajo tu completa responsabilidad. </p>
+                <div class="box" style="margin: 2%;"> 
+                    <p style="font-weight: bold;"> Equipamiento deportivo</p>
+                    <p>Si requieres viajar transportando algún tipo de equipo deportivo, debes tomar en cuenta que equipos de esquí, golf, buceo, pesca, boliche, windsurf, surf, bicicletas, snowboard, arco y flecha, parapentes y paracaídas, previa firma de un descargo de responsabilidad limitada, pueden ser incluidos en tu franquicia de equipaje registrado. En caso de existir un exceso de peso o sobredimension, te realizará el cobro correspondiente.</p>
+                    <p>Recuerda que debes presentar en mostradores tu equipo deportivo en su embalaje original o adecuadamente embalado, de esta forma se evitará que sufra daños.</p>
+                    <p style="font-weight: bold;">Bolsa de golf</p>
+                    <p>Cuando decidas transportar una bolsa de golf, toma en cuenta que puede contener:</p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Los palos de golf</li>
+                        <li><i class="bi bi-check-circle"></i>  Un par de zapatos.</li>
+                    </ul>
+                    <p style="font-weight: bold;">No aceptados</p>
+                    <p>Si cuentas con un equipo deportivo que funcione a motor y/o baterías, debes tomar en cuenta que este no será aceptado para su transporte.</p>
+                </div>
+                <div class="box" style="margin: 2%;"> 
+                    <p style="font-weight: bold;"> Instrumentos musicales</p>
+                    <p>Debido a la fragilidad y valor de estos artículos, podrán ser transportados en cabina como equipaje de mano, en asiento adicional o como equipaje registrado cumpliendo con las siguientes condiciones:</p>
+                    <p style="font-weight: bold;">Equipaje de mano</p>
+                    <p>Aplica medidas, peso y franquicia establecidos de acuerdo a la tarifa adquirita, ruta y aeronave que opera.</p>
+                    <p style="font-weight: bold;">En asiento adicional</p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Pago previo por un asiento adicional en la tarifa disponible en el vuelo.</li>
+                        <li><i class="bi bi-check-circle"></i>  El peso máximo es 75 kg/165 lb.</li>
+                        <li><i class="bi bi-check-circle"></i>  Debe caber en un asiento, sin interferir en el libre tránsito ni visibilidad..</li>
+                    </ul>
+                    <p style="font-weight: bold;">Como equipaje facturado</p>
+                    <p>Se acepta previa firma de descargo de responsabilidad limitada.</p>
+                    <p>Los instrumentos deben estar protegidos por una cubierta resistente para soportar el manejo y transporte, además de tener las siguientes características:</p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Peso máximo aceptado 45 kg/100 lb.</li>
+                        <li><i class="bi bi-check-circle"></i>  Dimensiones máximas permitidas 62 pulgadas (157 cm) lineales.</li>
+                    </ul>
+                </div>
+                <div class="box" style="margin: 2%;"> 
+                    <p style="font-weight: bold;"> Artículos restringidos</p>
+                    <p>Se trata de artículos o sustancias que pueden constituir un peligro para la salud y la seguridad de los pasajeros y la tripulación, el medioambiente o los aviones, por lo que no podrás llevarlos en ninguna de tus piezas de equipaje.</p>
+                    <ul>
+                        <li><p style="font-weight: bold;"> Aerosoles inflamables</p>Pintura en aerosol, almidón en aerosol, aerosol para cocinar, etc. Esta restricción no aplica para artículos de tocador (lociones, desodorantes, talco en aerosol para pies, etc.).</li>
+                        <li><p style="font-weight: bold;">Armas eléctricas (taser)</p>Armas de electrochoque, pistolas eléctricas o de corriente. </li>
+                        <li><p style="font-weight: bold;"> Elementos discapacitadores</p>Gases de defensa personal, aerosoles de pimienta o sustancias irritantes.</li>
+                        <li><p style="font-weight: bold;"> Vehículos impulsados por baterías externas</p>Hover, boards, scooters, unicycle u otros con este tipo de batería. </li>
+                    </ul>
+                </div>
+                <div class="box" style="margin: 2%;"> 
+                    <p style="font-weight: bold;"> Líquidos</p>
+                    <p>Si necesitas transportar líquidos en viajes internacionales, es muy importante que tomes en cuenta qué se clasifica como líquido:  Pueden transportarse estos artículos en tu equipaje de mano, si no superan los 100 ml o 3.3 oz, además deben guardarse en una bolsa transparente. </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  Agua, sopas, jarabes y otras bebidas.</li>
+                        <li><i class="bi bi-check-circle"></i>  Cremas, lociones y aceites.</li>
+                        <li><i class="bi bi-check-circle"></i>  Perfumes</li>
+                        <li><i class="bi bi-check-circle"></i>  Aerosoles (excepto pintura).</li>
+                        <li><i class="bi bi-check-circle"></i>  Geles (de ducha o champú).</li>
+                        <li><i class="bi bi-check-circle"></i>  Espuma de afeitar, peinar o desodorantes.</li>
+                        <li><i class="bi bi-check-circle"></i>  Pastas o cremas, incluye dentífricos.</li>
+                        <li><i class="bi bi-check-circle"></i>  Mezclas de líquidos y sólidos.</li>
+                        <li><i class="bi bi-check-circle"></i>  Máscara para pestañas.</li>
+                        <li><i class="bi bi-check-circle"></i>  Cualquier otro artículo de consistencia similar.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="exceso-equipaje" class="content">
+                <h1>Exceso de equipaje</h1>
+                <p>El equipaje excedente se denomina XBAG y su transporte está sujeto a espacio, por eso al momento de presentarte en mostradores con equipaje adicional al permitido en la ruta que realizarás el viaje, liberas a Boliviana de Aviación de toda responsabilidad, si no podemos abordarlo en el mismo número de vuelo que tú tomarás. Este equipaje puede ser entregado hasta un máximo de 7 días posteriores a la fecha de tu viaje, tal como podrás verificar en la etiqueta que el personal de aeropuerto pondrá a tu equipaje excedente.</p>
+                <p>Cuando decides entregar tu equipaje excedente en mostradores, certificas que no contiene alimentos perecederos, artículos o documentos de valor, incluyendo aparatos electrónicos, electrodomésticos, dinero en efectivo o medicamentos. De esta forma autorizas a Boliviana de Aviación, a que, en caso de ser necesario se abra e inspeccione el equipaje y además se deseche o destruya todo artículo perecedero que presente estado de descomposición, esto de acuerdo a las regulaciones aduanales y de salud aeroportuarios del país de origen y/o destino.</p>
+                <div class="box" style="margin: 2%;">
+                    <p>Los montos descritos a continuación están expresados en valores NETOS, por lo que, se debe adicionar el impuesto correspondiente al país que está realizando el cobro.</p>
+                </div>
+                <div class="box" style="margin: 2%;">
+                    <p style="font-weight: bold;">Vuelos dentro de Bolivia</p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>  El pago que realizará por pieza adicional está en función a la cantidad de piezas que tenga incluida su franquicia de equipaje en el boleto adquirido.</li>
+                        <li><i class="bi bi-check-circle"></i>  No se aceptarán más de 2 piezas de equipaje adicional a la franquicia de equipaje especificada en el boleto.</li>
+                    </ul>
+                    <p style="font-weight: bold;">EQUIPAJE CON PESO EXTRA</p>
+                    <p>1% del neto de la tarifa plena, de la ruta en la que viaja, por cada kilo adicional</p>
+                    <p>De Cochabamba, La Paz y Santa Cruz a Cobija 16 Bs por cada Kilo adicional</p>
+                </div>
+            </div>
+        </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una compañía dedicada a brindar los mejores servicios de viajes para todos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="paguina13.html">Tarifas</a></li>
+                    <li><a href="pagina11.html">Destinos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+            <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
+        </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2024 Dirve air. Todos los derechos reservados.</p>
+            
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="java/app3.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        
+    
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

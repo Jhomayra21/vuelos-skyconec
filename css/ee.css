@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #6dd5fa, #ffffff);
+  }
+
+  .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover img {
+    transform: scale(1.1);
+  }
+
+  .card .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Ocupa menos de la mitad de la tarjeta */
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card:hover .content {
+    transform: translateY(60%); /* Sube hasta ocupar el espacio deseado */
+  }
+
+  .content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2b2b2b;
+  }
+
+  .content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .content span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #04a9f4;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .content a {
+    text-decoration: none;
+    background: #04a9f4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .content a:hover {
+    background: #0288d1;
+  }

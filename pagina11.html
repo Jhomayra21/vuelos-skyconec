@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>tarifas</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/pagina11.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="avion (2).png" alt="" height="30"><a class="navbar-brand" href="">SkyConnect</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="paguina13.html">Tarifas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " aria-disabled="true" href="pagina11.html">Destinos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn custom-btn" type="submit">Buscar</button>
+                    </form>
+                    </div>
+                </div>
+            </nav> 
+        </header>
+        
+        <main>
+            <section class="slider">
+                <div class="list">
+                    <div class="item active">
+                        <div class="image" style="--url: url('https://noticiassalamanca.com/wp-content/uploads/2023/04/1669890227_655659_1669890395_gigante_normal.jpg')"></div>
+                        <div class="content">
+                            <h2>TENEMOS DIFERENTES DESTINOS</h2>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="image" style="--url: url('https://rumboeconomico.net/wp-content/uploads/2023/10/Nota-6-imagen-principal-16.jpg')"></div>
+                        <div class="content">
+                            <h2>ELIGE TU DESTINO</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image" style="--url: url('https://fotografias.lasexta.com/clipping/cmsimages01/2024/05/17/5C1EDD40-C99F-4FE4-8A0E-BC8E0A6A6A59/viajero-vacaciones-verano-mirando-avion_97.jpg?crop=1288,725,x0,y46&width=1600&height=900&optimize=high&format=webply')"></div>
+                        <div class="content">
+                            <h2>TU MEJOR DESTINO </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button id="prev">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                        </svg>
+                    </button>
+                    <button id="next">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <center>
+                <div class="navbar1" style="background:#2c445d; color:rgb(4, 4, 4);">
+                  <div class="header">
+                    <h1 style="font-weight: bold; color:white">Adquiere un Paquete Tours</h1>
+                    <div class="container-icon">
+                      <div class="container-cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+                        </svg>
+                        <div class="count-products">
+                          <span id="contador-productos">0</span>
+                        </div>
+                      </div>
+                      
+                      <div class="container-cart-products hidden-cart">
+                        <div class="cart-empty hidden">El carrito está vacío</div>
+                        <div class="cart-product-container"></div>
+                        <div class="cart-total">
+                          <h3>Total:</h3>
+                          <span class="total-pagar" id="total-pagar">$0</span>
+                        </div>
+                        <button class="btn-comprar" onclick="realizarCompra()">Comprar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </center>
+            <div>
+                <div class="body1">
+                    <div class="tabs">
+                        <div class="tabs__head">
+                        <div class="tabs__toggle is-active">
+                            <span class="tabs__name">Viaje Departamentales</span>
+                        </div>
+                        <div class="tabs__toggle">
+                            <span class="tabs__name">Lugares Turisticos</span>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body2">
+                <div class="tabs__body" style="background-color:  #7398a9c9 ;">
+                    <div class="tabs__content is-active">
+                    <h2 class="tabs__title"><center><h1 style="font-weight: bold;">Conoce los diferentes Departamentos</h1></center></h2>
+                </h2>
+                    <p class="tabs__text">
+                        <div class="container-items">
+                            <div class="item">
+                                <div class="product-card" data-id="1" data-image="https://i.pinimg.com/736x/42/2d/33/422d33497e3d6613c7ef8d883246c810.jpg">
+                                    <img src="https://i.pinimg.com/736x/42/2d/33/422d33497e3d6613c7ef8d883246c810.jpg" alt="Producto Uyuni">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Chochabamba</h2>
+                                        <p class="price">$329</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(1, 'Cochabamba', 329, 'https://i.pinimg.com/736x/9a/50/1e/9a501e18946ffdf47ac40d4c1e77db9c.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="item">
+                                <div class="product-card" data-id="2" data-image="https://i.pinimg.com/736x/9a/50/1e/9a501e18946ffdf47ac40d4c1e77db9c.jpg">
+                                    <img src="https://i.pinimg.com/736x/9a/50/1e/9a501e18946ffdf47ac40d4c1e77db9c.jpg" alt="Producto Uyuni">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Chuquisaca</h2>
+                                        <p class="price" style="color: white;">$350</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(2, 'Chuquisaca', 350, 'https://i.pinimg.com/736x/9a/50/1e/9a501e18946ffdf47ac40d4c1e77db9c.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="item">
+                                <div class="product-card" data-id="1" data-image="https://i.pinimg.com/736x/70/6e/11/706e1163868cc7c2dee0e8d56e48dc8a.jpg">
+                                    <img src="https://i.pinimg.com/736x/70/6e/11/706e1163868cc7c2dee0e8d56e48dc8a.jpg" alt="Producto Oruro">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Oruro</h2>
+                                        <p class="price" style="color: white;">$300</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(1, 'Oruro', 300, 'https://i.pinimg.com/736x/70/6e/11/706e1163868cc7c2dee0e8d56e48dc8a.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="product-card" data-id="2" data-image="https://i.pinimg.com/736x/e2/06/74/e2067485c13008487041b166ac3fbd93.jpg">
+                                    <img src="https://i.pinimg.com/736x/e2/06/74/e2067485c13008487041b166ac3fbd93.jpg" alt="Producto Santa Cruz">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Santa Cruz</h2>
+                                        <p class="price" style="color: white;">$450</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(2, 'Santa Cruz', 450, 'https://i.pinimg.com/736x/e2/06/74/e2067485c13008487041b166ac3fbd93.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="product-card" data-id="3" data-image="https://i.pinimg.com/736x/5b/ef/e2/5befe2d01e2aab7138b7a2d37bd9328f.jpg">
+                                    <img src="https://i.pinimg.com/736x/5b/ef/e2/5befe2d01e2aab7138b7a2d37bd9328f.jpg" alt="Producto Tarija">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Tarija</h2>
+                                        <p class="price" style="color: white;">$129</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(3, 'Tarija', 129, 'image/tarija.jpghttps://i.pinimg.com/736x/5b/ef/e2/5befe2d01e2aab7138b7a2d37bd9328f.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="product-card" data-id="4" data-image="https://www.caminitoamor.com/wp-content/uploads/2021/05/Guia-de-Trinidad-en-el-Beni-Bolivia.jpg">
+                                    <img src="https://www.caminitoamor.com/wp-content/uploads/2021/05/Guia-de-Trinidad-en-el-Beni-Bolivia.jpg" alt="Producto Beni">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Beni</h2>
+                                        <p class="price" style="color: white;">$370</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(4, 'Beni', 370, 'https://www.caminitoamor.com/wp-content/uploads/2021/05/Guia-de-Trinidad-en-el-Beni-Bolivia.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="product-card" data-id="5" data-image="https://boliviaemprende.com/wp-content/uploads/2015/09/pando-cobija.jpg">
+                                    <img src="https://boliviaemprende.com/wp-content/uploads/2015/09/pando-cobija.jpg" alt="Producto Pando">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Pando</h2>
+                                        <p class="price" style="color: white;">$370</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(5, 'Pando', 370, 'https://boliviaemprende.com/wp-content/uploads/2015/09/pando-cobija.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="product-card" data-id="6" data-image="https://i.pinimg.com/736x/6d/36/c0/6d36c010a8f4ecb6ef64e5db00778b51.jpg">
+                                    <img src="https://i.pinimg.com/736x/6d/36/c0/6d36c010a8f4ecb6ef64e5db00778b51.jpg" alt="Producto La Paz">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">La Paz</h2>
+                                        <p class="price" style="color: white;">$380</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(6, 'La Paz', 380, 'https://i.pinimg.com/736x/6d/36/c0/6d36c010a8f4ecb6ef64e5db00778b51.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="product-card" data-id="7" data-image="https://i.pinimg.com/736x/5b/1e/3b/5b1e3bb73190f1374e420be3b2d870c1.jpg">
+                                    <img src="https://i.pinimg.com/736x/5b/1e/3b/5b1e3bb73190f1374e420be3b2d870c1.jpg" alt="Producto Potosí">
+                                    <div class="info-product">
+                                        <h2 style="font-weight: bold;">Potosí</h2>
+                                        <p class="price" style="color: white;">$129</p>
+                                        <button class="btn-add-cart" onclick="agregarProducto(7, 'Potosí', 129, 'https://i.pinimg.com/736x/5b/1e/3b/5b1e3bb73190f1374e420be3b2d870c1.jpg')">Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </p>
+                    </div>
+                    <div class="tabs__content">
+                      <h2 class="tabs__title" ><center><h1 style="font-weight: bold;">Lugares turisticos</h1></center></h2>
+                      <p class="tabs__text"><div class="container-items" >
+                        <div class="container-items">
+                            <div class="item">
+                              <div class="product-card" data-id="1" data-image="https://i.pinimg.com/736x/d8/f2/42/d8f242b3206ff67822a6a1dfb2ae232f.jpg">
+                                <img src="https://i.pinimg.com/736x/d8/f2/42/d8f242b3206ff67822a6a1dfb2ae232f.jpg" alt="Producto Uyuni">
+                                <div class="info-product">
+                                  <h2>Salar de Uyuni</h2>
+                                  <p class="price">$190</p>
+                                  <button class="btn-add-cart" onclick="agregarProducto(1, 'Isla de las banderas', 190, 'https://i.pinimg.com/736x/d8/f2/42/d8f242b3206ff67822a6a1dfb2ae232f.jpg')">Añadir al carrito</button>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="product-card" data-id="2" data-image="https://i.pinimg.com/736x/74/45/86/7445864804f2dc22eda941c5bd9d5eb6.jpg">
+                                <img src="https://i.pinimg.com/736x/74/45/86/7445864804f2dc22eda941c5bd9d5eb6.jpg" alt="Producto Chuquisaca">
+                                <div class="info-product">
+                                  <h2>Tiahunaco</h2>
+                                  <p class="price">$310</p>
+                                  <button class="btn-add-cart" onclick="agregarProducto(2, 'Tihunacu', 310, 'https://i.pinimg.com/736x/74/45/86/7445864804f2dc22eda941c5bd9d5eb6.jpg')">Añadir al carrito</button>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="item">
+                              <div class="product-card" data-id="3" data-image="image/oruro2.jpghttps://i.pinimg.com/736x/26/19/1f/26191ff16fd81ef33d9170daefe6749e.jpg">
+                                <img src="https://i.pinimg.com/736x/26/19/1f/26191ff16fd81ef33d9170daefe6749e.jpg" alt="Producto Oruro">
+                                <div class="info-product">
+                                  <h2>Laguna Colorada</h2>
+                                  <p class="price">$250</p>
+                                  <button class="btn-add-cart" onclick="agregarProducto(3, 'Laguna Colorada', 250, 'https://i.pinimg.com/736x/26/19/1f/26191ff16fd81ef33d9170daefe6749e.jpg')">Añadir al carrito</button>
+                                </div>
+                              </div>
+                            </div>
+                    </div></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una compañía dedicada a brindar los mejores servicios de viajes para todos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="paguina13.html">Tarifas</a></li>
+                    <li><a href="pagina11.html">Destinos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2024 Drive air. Todos los derechos reservados.</p>
+            
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="java/app11.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script>let tabs = document.querySelectorAll('.tabs__toggle'),
+            contents = document.querySelectorAll('.tabs__content');
+        
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                contents.forEach((content) => {
+                    content.classList.remove('is-active');
+                });
+                tabs.forEach((tab) => {
+                    tab.classList.remove('is-active');
+                });
+                contents[index].classList.add('is-active');
+                tabs[index].classList.add('is-active');
+            });
+        });</script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>

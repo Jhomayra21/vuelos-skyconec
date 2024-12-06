@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Mascota</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/pagina1.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg custom-navbar">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="avion (2).png" alt="" height="30"><a class="navbar-brand" href="">SkyConnect</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="paguina13.html">Tarifas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " aria-disabled="true" href="pagina11.html">Destinos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn custom-btn" type="submit">Buscar</button>
+                    </form>
+                    </div>
+                </div>
+            </nav> 
+        </div>
+        </header>
+        
+        <main>
+            <section class="slider">
+                <div class="list">
+                    <div class="item active">
+                        <div class="image" style="--url: url('https://i.pinimg.com/736x/43/6c/18/436c18de3a59143117e62d120e3a270d.jpg')"></div>
+                        <div class="content">
+                            <h2>VIAJA JUNTO A TU MASCOTA</h2>
+                        </div>
+                    </div>
+                    <div class="item ">
+                        <div class="image" style="--url: url('https://i.pinimg.com/736x/4b/2d/e2/4b2de234872aaff7a7b38208aa90eb30.jpg')"></div>
+                        <div class="content">
+                            <h2>VIAJA JUNTO A TU MASCOTA</h2>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image" style="--url: url('https://i.pinimg.com/736x/f8/44/01/f844010125d88e04f4747a661ecffea7.jpg')"></div>
+                        <div class="content">
+                            <h2>VIAJA JUNTO A TU MASCOTA</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button id="prev">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l4-4m-4 4 4 4"/>
+                        </svg>
+                    </button>
+                    <button id="next">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            
+                <!-- sección proyectos -->
+                <section id="portfolio" class="porfolio">
+                        <h2>Mascota a bordo</h2>
+                        <nav>
+                            <button class="selected" onclick="mostrar(0)">Tab 1</button>
+                        <div class="separador"></div>
+                            <button onclick="mostrar(1)">Tab 2</button>
+                        <div class="separador"></div>
+                            <button onclick="mostrar(2)">Tab 3</button>
+                </nav>
+
+                    <div id="proyectos"  class="proyectos">
+                        <div class="fila">
+                            <div class="col">
+                                <img src="https://i.pinimg.com/736x/70/77/83/707783f15c2af30cf4f8b80777bb17fe.jpg" alt="" height="500" >
+                                <div class="overlay">
+                                </div>
+                                <div class="info">
+                                    <div class="info2" >
+                                        <div class="topic">Mascota en Cabina</div>
+                                        <p>
+                                            Usa un maletín flexible, ventilado, cerrado, con base impermeable y absorbente. Durante el vuelo, tu mascota debe permanecer en el bolso bajo el asiento delantero.
+                                        </p>
+                                        <p>
+                                            <strong>Documentación:</strong> Presenta los certificados sanitarios requeridos, especialmente para viajes internacionales, según el país de destino.
+                                        </p>
+                                        <p>
+                                            <strong>Peso y dimensiones:</strong> Máximo 8 kg (incluido el maletín). Tamaño: 25 cm alto x 33 cm ancho x 36 cm profundidad. Si excede, deberá ir en bodega.
+                                        </p>
+                                        <p>
+                                            <strong>Disponibilidad:</strong> Servicio para vuelos nacionales e internacionales (no aplica para conexiones ni códigos compartidos).
+                                        </p>
+                                        <p>
+                                            <strong>Costo:</strong> Fijo hasta 5 kg, con cargo adicional por cada kilo extra (hasta 8 kg). Consulta en el aeropuerto o canales de atención.
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="col">
+                                <img src="https://i.pinimg.com/736x/91/5c/13/915c13f91aa576e440608d61c732d348.jpg" alt="" height="500">
+                                <div class="overlay">
+                                </div>
+                                <div class="info">
+                                    <div class="info2">
+                                        <div class="topic">Mascota en Bodega</div>
+                                        <p>
+                                            Para realizar el transporte de tu mascota, debes cumplir con los siguientes requisitos:
+                                            <ul>
+                                                <li>El canil debe ser resistente, seguro, cómodo y ventilado. Tu mascota debe poder sentarse, pararse, girar y acostarse cómodamente.</li>
+                                                <li>Para viajes internacionales, el material debe ser más fuerte y los seguros garantizar que no se abrirá durante el transporte.</li>
+                                                <li>Respeta los horarios de presentación en el aeropuerto y presenta la documentación requerida según la ruta de tu viaje.</li>
+                                                <li>La tarifa depende de la ruta y del peso combinado de tu mascota y su canil.</li>
+                                                <li>Si tu mascota pesa 40 kg o más, usa un contenedor reforzado con al menos dos seguros adicionales.</li>
+                                                <li>Hay cupo limitado para mascotas por vuelo, y garantizamos procedimientos seguros para su transporte.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="col">
+                                <img src="https://i.pinimg.com/736x/d9/27/a7/d927a776d358fdba85ed81117f92325e.jpg" alt="" height="500">
+                                <div class="overlay">
+                                </div>
+                                <div class="info">
+                                    <div class="info2">
+                                        <div class="topic">Mascota en Bodega</div>
+                                        <div>
+                                        <p>
+                                            Tu perro de soporte emocional puede viajar en cabina si cumple con los requisitos establecidos. Este servicio tiene un costo adicional según la ruta y no aplica para conexiones con otras aerolíneas ni vuelos de código compartido.
+                                        </p>
+                                        <p>
+                                            <strong>Peso máximo:</strong> 18 kg. Si supera este peso, debe viajar en buzón con un canil rígido adecuado (consulta transporte en buzón).
+                                        </p>
+                                        <p>
+                                            <strong>Requisitos:</strong> Debes completar los formularios requeridos y presentar la documentación en cada vuelo. Sin los certificados de salud vigentes y originales, el transporte será rechazado.
+                                        </p>
+                                        <p>
+                                            Si no cumples con los requisitos, el perro puede viajar en bodega o como mascota en cabina, dependiendo de tamaño y peso, con costo adicional.
+                                        </p>
+                                        <p>
+                                            Asegúrate de leer y cumplir el documento de <strong>Requisitos para Perros de Soporte Emocional/Servicio Psiquiátrico</strong>, ya que el incumplimiento puede resultar en la negación del embarque.
+                                        </p>
+                                        <p>
+                                            Consulta costos en el aeropuerto o por nuestros canales de atención.
+                                        </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="col">
+                                <img src="https://www.trespm.mx/media/k2/items/cache/91ba20cf52156c920755d89075cbd556_XL.jpg" alt="" height="500" >
+                                <div class="overlay">
+                                </div>
+                                <div class="info">
+                                    <div class="info2">
+                                        <div class="topic">Perros de servicio entrenados</div>
+                                        <div>
+                                            <p>
+                                                Los animales entrenados para asistir a personas con capacidades especiales, como deficiencias visuales o auditivas, pueden viajar en cabina sin necesidad de un maletín de transporte.
+                                            </p>
+                                            <p>
+                                                Recuerda que estos animales están cumpliendo un trabajo y deben permanecer enfocados, por lo que no deben ser molestados.
+                                            </p>
+                                            <p>
+                                                <strong>Costo:</strong> Este servicio es gratuito. Para más información, consulta en el aeropuerto o a través de nuestros canales de atención.
+                                            </p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fila">
+                            <div class="col">
+                                <img src="https://i.pinimg.com/736x/a4/5e/f0/a45ef0b5cb43629a6981f3c12420f481.jpg" alt="" height="500" >
+                                <div class="overlay">
+                                </div>
+                                <div class="info">
+                                    <div class="info2" >
+                                        <div class="topic">Tipos de razas</div>
+                                        <div>
+                                            <p>
+                                                Cada país puede tener requisitos adicionales o restricciones para el ingreso de mascotas. Es importante revisar las regulaciones específicas de cada destino.
+                                            </p>
+                                            <p>
+                                                <strong>Razas braquicéfalas:</strong> Perros y gatos de estas razas tienen mayor riesgo de problemas respiratorios y golpes de calor. Solo pueden viajar en cabina cumpliendo los requisitos, y el pasajero debe firmar un deslinde de responsabilidad.
+                                            </p>
+                                            <p>
+                                                <strong>Restricciones de transporte en bodega:</strong>
+                                                <ul>
+                                                    <li><strong>Perros braquicéfalos:</strong> Affenpinscher, bulldog (todas las razas), bóxer, pug, shar pei, y otras razas mencionadas.</li>
+                                                    <li><strong>Gatos braquicéfalos:</strong> Persa, himalayo, burmese, exotic shorthair.</li>
+                                                </ul>
+                                            </p>
+                                            <p>
+                                                <strong>Perros potencialmente peligrosos:</strong> Estas razas (doberman, pit bull, rottweiler, presa canario, entre otros) solo serán aceptadas en bodega dentro de un contenedor reforzado y con bozal.
+                                            </p>
+                                            <p>
+                                                <strong>No se admiten:</strong> Animales agresivos o peligrosos que representen riesgos de seguridad.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="marcas" class="marcas" >
+                        <div class="fila" >
+                            <div class="col">
+                                <div class="body">
+                                    <div class="topic">Datos Importantes</div>
+                                    <div class="container">
+                                        <div class="accordion">
+                                            <label class="accordion-header" for="bolivia">Vuelos dentro de Bolivia</label>
+                                            <input type="checkbox" id="bolivia">
+                                            <div class="accordion-content">
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Cartilla de vacunas</h3>
+                                                    <p>Esta cartilla debe contener todas las vacunas expedidas por un profesional veterinario.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30">La vacuna contra la rabia canina y felina</h3>
+                                                    <p>Debe ser otorgada por algún Centro Municipal de Zoonosis (CEMZOO) o el Certificado de Vacunación emitido por un establecimiento veterinario registrado por SENASAG. Es imprescindible que la vacuna haya sido aplicada por lo menos un mes antes del vuelo y menos de un año antes del embarque.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="accordion">
+                                            <label class="accordion-header" for="sudamerica">Vuelos dentro Santa Cruz</label>
+                                            <input type="checkbox" id="sudamerica">
+                                            <div class="accordion-content">
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Cartilla de vacunas</h3>
+                                                    <p>Esta cartilla debe contener todas las vacunas expedidas por un profesional veterinario.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Vacuna contra la rabia canina y felina</h3>
+                                                    <p>Es imprescindible que la vacuna haya sido aplicada por lo menos un mes antes del vuelo y menos de un año antes del embarque.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Certificado zoosanitario internacional</h3>
+                                                    <p>Este certificado lo obtendrás por el Servicio Sanitario Oficial del país de origen.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Informe sanitario emitido por un veterinario</h3>
+                                                    <p>Este informe debe ser emitido por el veterinario y tendrá validez de 10 días a partir de la fecha de emisión.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Certificado de vacunación contra bacterias y parásitos</h3>
+                                                    <p>Incluido en la Cartilla de Vacunación, debe encontrarse vigente dentro de la periodicidad indicada en la cartilla.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion">
+                                            <label class="accordion-header" for="madrid">Vuelos hacia La Paz</label>
+                                            <input type="checkbox" id="madrid">
+                                            <div class="accordion-content">
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Cartilla de vacunas</h3>
+                                                    <p>Es imprescindible que la vacuna haya sido aplicada por lo menos un mes antes del vuelo y menos de un año antes del embarque.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Vacuna contra la rabia canina y felina</h3>
+                                                    <p>Es imprescindible que la vacuna haya sido aplicada por lo menos un mes antes del vuelo y menos de un año antes del embarque.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Certificado zoosanitario internacional</h3>
+                                                    <p>Este certificado lo obtendrás por el Servicio Sanitario Oficial del país de origen.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Informe sanitario emitido por un veterinario</h3>
+                                                    <p>Este informe debe ser emitido por el veterinario y tendrá validez de 10 días a partir de la fecha de emisión.</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Microchip / tatuaje. </h3>
+                                                    <p>Guarda la etiqueta del micro chip implantado en tu mascota, este contiene un código alfa numérico de identificación</p>
+                                                </div>
+                                                <div class="item">
+                                                    <h3><img src="https://img.freepik.com/fotos-premium/aceptar-circulo-azul-web-brillante-icono-marca-verificacion-azul-simbolos-icono-elemento-aislado-sobre-fondo-blanco_256259-2834.jpg?w=996" alt="" width="30"> Certificado de serología </h3>
+                                                    <p>Es necesario que hayan transcurrido 90 días después de la toma de muestra para abordar el vuelo.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div id="descripcion" class="marcas1" >
+                        <div class="fila" >
+                            <div class="col">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Solo ida</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Ida y Vuelta</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">Multiples destinos</label>
+                                </div>
+                                <div class="row g-1" style="margin: 2%;">
+                                    <div class="col-md">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="Origen" >
+                                        <label for="floatingInputGrid">Apellido</label>
+                                    </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="floatingInputGrid" placeholder="Origen">
+                                            <label for="floatingInputGrid">Nombre</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-1" style="margin: 2%;">
+                                <div class="col-md">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="floatingInputGrid" placeholder="Origen" >
+                                    <label for="floatingInputGrid">Origen</label>
+                                </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="Origen">
+                                        <label for="floatingInputGrid">Destino</label>
+                                    </div>
+                                </div>
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="floatingInputGrid" placeholder="Origen">
+                                        <label for="floatingInputGrid">Raza</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin: 2%;">
+                                <select class="form-select form-select-lg mb-3" aria-label="Large select example" >
+                                    <option selected>Tipo de Animal</option>
+                                    <option value="1">Perro</option>
+                                    <option value="2">Gato</option>
+                                    <option value="3">Otros</option>
+                                </select>
+                            </div>
+                            <div class="pan" style="margin: 2%;">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                        <p style="color: black;">
+                                            Estoy consciente de que mi mascota debe permanecer junto a mí,  
+                                            dentro de la jaula o bolso para mascotas durante todo el vuelo.
+                                        </p>
+                                        
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                        <p style="color: black;">
+                                            Estoy consciente y dispuesto a cumplir con las condiciones descritas seguidamente para el transporte de mi mascota en cabina:
+                                        </p>
+                                        <ul style="color: black;">
+                                            <li>Sólo se permite una mascota por pasajero y una mascota por jaula o bolso para mascota.</li>
+                                            <li>La mascota debe viajar en el mismo vuelo y utilizar una jaula o bolso para mascota adecuada para su transporte.</li>
+                                            <li>La mascota debe permanecer dentro de la jaula o bolso para mascota durante todo el vuelo.</li>
+                                            <li>La mascota debe ser ubicada en el piso frente al asiento asignado, no sobre los asientos y no pueden ocupar espacio en los pasillos.</li>
+                                            <li>Soy consciente de que viajando con una mascota en cabina no puedo viajar en Clase Ejecutiva, asientos en fila 5 o en la salida de emergencia.</li>
+                                        </ul>
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                        <p style="color: black;">
+                                            Estoy consciente que de no cumplir con las siguientes condiciones se me negará el embarque:
+                                        </p>
+                                        <ul style="color: black;">
+                                            <li>Si la mascota junto con su jaula o bolsa pesa más de 9kg (20 libras).</li>
+                                            <li>Si la mascota tiene mal olor, mal comportamiento como: ladrar, gruñir, atacar a otros pasajeros o no es capaz de controlar sus necesidades.</li>
+                                            <li>Si la mascota no cumple con la documentación requerida del país de origen y destino, yo soy responsable de los costos correspondientes al cambio de itinerario.</li>
+                                            <li>Si la mascota no cumple con cualquiera de los términos y condiciones mencionadas en este formulario.</li>
+                                        </ul>
+                                        
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                        <p style="color: black;">
+                                            Estoy consciente de que soy responsable del cuidado, bienestar y conducta de mi mascota:
+                                        </p>
+                                        <ul style="color: black;">
+                                            <li>Soy responsable de cualquier daño físico o perjuicio que pueda ocasionar a terceras personas durante mi viaje, ya sea en las instalaciones de Copa Airlines y/o el aeropuerto, así como a bordo de la aeronave.</li>
+                                            <li>Soy responsable de la limpieza, si mi mascota hace sus necesidades a bordo de la aeronave, o en el aeropuerto, o en cualquier área que no sea un área designada para que mascotas hagan sus necesidades.</li>
+                                        </ul>
+                                        
+                                        
+                                    </label>
+                                </div>
+                                <div class="row g-1 " style="margin: 2%;">
+                                    <div class="col-md">
+                                    <div class="form-floating">
+                                        <button class="btn btn-outline w-100" type="button" aria-expanded="false">
+                                            Registrar
+                                        </button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+            
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Somos una compañía dedicada a brindar los mejores servicios de viajes para todos.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="paguina13.html">Tarifas</a></li>
+                    <li><a href="pagina11.html">Destinos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+            <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2024 Dirve air. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="java/app1.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        
+    
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
